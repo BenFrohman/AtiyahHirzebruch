@@ -1,3 +1,4 @@
+<!-- Copyright (c) 2026 Benjamin Stanley Frohman. Licensed under Apache-2.0. -->
 # Not Clay
 
 Clay asks for a rational class outside `im(cl_Q)`.
