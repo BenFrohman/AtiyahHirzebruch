@@ -1,6 +1,8 @@
 <!-- Copyright (c) 2026 Benjamin Stanley Frohman. Licensed under Apache-2.0. -->
 # Atiyah–Hirzebruch
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23652971.svg)](https://doi.org/10.5281/zenodo.23652971) [![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+
 **Status:** literature counterexample to the *integral* Hodge conjecture.
 **Not** a counterexample to Clay rational Hodge.
 **Author:** Benjamin Stanley Frohman (@BenFrohman)
@@ -55,3 +57,14 @@ Kollár produced *non-torsion* integral Hodge classes that are still not algebra
 - a proof that `1751 - 2` counts non-algebraic rational classes
 
 `V(F)` and `α = [Π] - (1/6)h^2` are algebraic over `Q`. They live in `NL_alg`, not in `CE`.
+
+---
+## Archival DOI & Cryptographic Provenance
+
+- **Dedicated 1-to-1 Zenodo DOI:** [10.5281/zenodo.23652971](https://doi.org/10.5281/zenodo.23652971)
+- **Author:** Benjamin Stanley Frohman (ORCID: [0009-0006-7068-3718](https://orcid.org/0009-0006-7068-3718))
+- **License:** Apache License, Version 2.0 (`Copyright (c) 2026 Benjamin Stanley Frohman`)
+- **Earliest Commit Provenance:** `4324e2550e8982bf1555a837ef0ead5957e00e26` (2026-09-28 06:55:02 PM CDT (UTC-5))
+- **SealGuard SHA-256 Merkle Root:** `a054ea4d7be2498d849264414e85a499f1a48067ff23f8d6572fd610e15680ce` (`PROVENANCE_MERKLE_ROOT.json`)
+- **Titan Audit Certificate:** `audit/TITAN_AUDIT_CERTIFICATE.json` (Ed25519 key `b428fb72676f1c52`)
+- **Scope & Scientific Boundary:** This repository records known 1962 integral torsion obstructions (Atiyah-Hirzebruch) and their vanishing after rationalization. It does not prove or disprove the rational Clay Hodge Conjecture.

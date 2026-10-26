@@ -1,0 +1,75 @@
+{
+  "schema": "sealguard-merkle-provenance-v1.0",
+  "repository": "BenFrohman/AtiyahHirzebruch",
+  "doi": "10.5281/zenodo.23652971",
+  "author": "Benjamin Stanley Frohman",
+  "orcid": "0009-0006-7068-3718",
+  "license": "Apache-2.0",
+  "timestamp_cdt": "2026-10-25T19:10:00-05:00",
+  "merkle_root_sha256": "a054ea4d7be2498d849264414e85a499f1a48067ff23f8d6572fd610e15680ce",
+  "ed25519_key_fingerprint": "b428fb72676f1c52",
+  "ed25519_signature": "c1e2fa6329a110ad888445fccf9b39cff6142c09f8b9e4ce11441bdba964e8d6132abab3fa7a1a73864af0c80abbb250c2cdcde2e1a22144e5dc9c5e20466a00",
+  "leaf_count": 12,
+  "leaves": [
+    {
+      "path": ".zenodo.json",
+      "sha256": "3a733d9422ca358f3fe6cea1829e7fbfc76fa1f2c190088fda59b582d7765921",
+      "bytes": 1607
+    },
+    {
+      "path": "AUTHORS.md",
+      "sha256": "1732529c9d516b14378c2ea60b7a29a9dd01385bb5f302efa163c42b3dceb130",
+      "bytes": 320
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "19746040c08c3af23f8bbf3e492a1bd27abe880643c9c02c33dd35322e7ece11",
+      "bytes": 632
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "ec43eec7417d548fb78a8dc50830f1d854b91a89c2daf0d4e957601515c15e87",
+      "bytes": 10773
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "97cfd4b361940f3dbb3cdb34de02015d9f8457bf0b827097d79b6aa773b725f3",
+      "bytes": 594
+    },
+    {
+      "path": "README.md",
+      "sha256": "64f8e435c63f358cfe6789b5fab5e86d85ee5ac6f842595de3e783d6e2ef42a0",
+      "bytes": 3294
+    },
+    {
+      "path": "audit/TITAN_AUDIT_CERTIFICATE.json",
+      "sha256": "aefe6dec66a8d889cff586be46bba8d1a4042e0adaab0dc6ce739df4ccaa11b2",
+      "bytes": 670
+    },
+    {
+      "path": "docs/KOLLAR.md",
+      "sha256": "fd5ee3391ef6e8e83f4a56baa35b78975fc9c5fb0263e0d239182b569ae7c930",
+      "bytes": 1170
+    },
+    {
+      "path": "docs/NOT_CLAY.md",
+      "sha256": "5c18af483bca3fd55e539adcce9ce583a8b7ba8df412b9dd1562605d3c9e3041",
+      "bytes": 379
+    },
+    {
+      "path": "docs/STATEMENT.md",
+      "sha256": "6234e6b12f404b8fbe9f5afdc032c8495e7bcd97df061e440b6f4c22edbf1aed",
+      "bytes": 1085
+    },
+    {
+      "path": "paper/AtiyahHirzebruch_Technical_Monograph_2026.pdf",
+      "sha256": "0c772de61ca5db6a4f9230cc23c0e15b8c55087d8013361046d7e3991888e2b9",
+      "bytes": 48471
+    },
+    {
+      "path": "paper/AtiyahHirzebruch_Technical_Monograph_2026.tex",
+      "sha256": "65ef60e89f3a5130d45e3d0c1b0c977abada3482ca5f250f9613132e932dbfcc",
+      "bytes": 4653
+    }
+  ]
+}

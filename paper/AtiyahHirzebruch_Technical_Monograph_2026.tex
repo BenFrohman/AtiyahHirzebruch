@@ -1,0 +1,98 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=blue}
+
+\title{\textbf{Atiyah-Hirzebruch Integral Hodge Counterexamples and Torsion Obstructions: Formal Separation from the Rational Clay Hodge Conjecture}}
+\author{Benjamin Stanley Frohman\\
+\small ORCID: \href{https://orcid.org/0009-0006-7068-3718}{0009-0006-7068-3718} \quad|\quad
+GitHub: \href{https://github.com/BenFrohman/AtiyahHirzebruch}{\texttt{BenFrohman/AtiyahHirzebruch}}\\
+\small Dedicated 1-to-1 Zenodo DOI: \href{https://doi.org/10.5281/zenodo.23652971}{\texttt{10.5281/zenodo.23652971}}}
+\date{Earliest Commit Provenance: 2026-09-28 06:55:02 PM CDT (UTC-5)\\
+Siloed Archival Edition: October 25, 2026 (America/Chicago CDT)}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Standalone formal documentation and mathematical ledger of the 1962 Atiyah-Hirzebruch torsion counterexamples to the Integral Hodge Conjecture on smooth projective varieties over C, constructed via Steenrod operations in topological K-theory on Godeaux-Serre quotients of products of elliptic curves by elementary abelian p-groups (p >= 3) in complex dimension >= 7. Explicitly documents why torsion classes vanish under tensoring with Q (H\textasciicircum{}\{2p\}(X, Z)\_tors (x) Q = 0) and therefore do not constitute counterexamples to the Clay Mathematics Institute Rational Hodge Conjecture.
+\end{abstract}
+
+\section{Scope, Scientific Honesty, and Non-Claim Boundary}
+This repository records known 1962 integral torsion obstructions (Atiyah-Hirzebruch) and their vanishing after rationalization. It does not prove or disprove the rational Clay Hodge Conjecture.
+
+\begin{itemize}
+  \item \textbf{Repository:} \texttt{https://github.com/BenFrohman/AtiyahHirzebruch}
+  \item \textbf{Dedicated 1-to-1 Zenodo DOI:} \texttt{10.5281/zenodo.23652971}
+  \item \textbf{Earliest Git Commit SHA:} \texttt{4324e2550e8982bf1555a837ef0ead5957e00e26} (2026-09-28 06:55:02 PM CDT (UTC-5))
+  \item \textbf{License \& Copyright:} Copyright \textcopyright\ 2026 Benjamin Stanley Frohman. Licensed under the Apache License, Version 2.0.
+\end{itemize}
+
+\section{Technical Overview \& Repository Specification}
+**Status:** literature counterexample to the *integral* Hodge conjecture.
+
+**Not** a counterexample to Clay rational Hodge.
+
+**Author:** Benjamin Stanley Frohman (@BenFrohman)
+
+**License:** Apache-2.0. © 2026 Benjamin Stanley Frohman.
+
+This shelf records one of the two classical counterexamples to
+
+```
+
+CH\textasciicircum{}k(X) → H\textasciicircum{}\{2k\}(X,Z) ∩ H\textasciicircum{}\{k,k\}(X)
+
+```
+
+being surjective. The other shelf is Kollár (non-torsion). Neither shelf is Term B of rational Hodge.
+
+There exist smooth complex projective varieties and torsion classes
+
+```
+
+α ∈ H\textasciicircum{}\{2k\}(X,Z) ∩ H\textasciicircum{}\{k,k\}(X),    nα = 0 for some n > 0,
+
+```
+
+that are not the class of an algebraic cycle.
+
+Source: M. F. Atiyah and F. Hirzebruch, *Analytic cycles on complex manifolds*, Topology 1 (1962), 25–45.
+
+Totaro (1997) recast the same examples in complex cobordism: the refined cycle class `CH\textasciicircum{}*(X) → MU\textasciicircum{}*(X) ⊗\_\{MU\_*\} Z` misses those torsion classes.
+
+Clay Hodge is the *rational* statement:
+
+```
+
+\section{Cryptographic Provenance \& File Inventory}
+Every source artifact in \texttt{BenFrohman/AtiyahHirzebruch} is audited via \texttt{titan-audit}
+(\texttt{audit/TITAN\_AUDIT\_CERTIFICATE.json}) and sealed under a deterministic SHA-256 Merkle tree via
+\texttt{sealguard} (\texttt{PROVENANCE\_MERKLE\_ROOT.json}) signed with Ed25519 key fingerprint
+\texttt{b428fb72676f1c52}.
+
+\begin{center}
+\small
+\begin{tabular}{p{0.52\textwidth}rr}
+\toprule
+\textbf{Repository Path} & \textbf{Size} & \textbf{SHA-256 Prefix} \\
+\midrule
+\texttt{AUTHORS.md} & 108 B & \texttt{de9b57abea3996d2...} \\
+\texttt{LICENSE} & 11355 B & \texttt{9da72c2bee4f20ba...} \\
+\texttt{NOTICE} & 328 B & \texttt{c9de9666c8211b61...} \\
+\texttt{README.md} & 2160 B & \texttt{9b83395635d9d5eb...} \\
+\texttt{docs/KOLLAR.md} & 1170 B & \texttt{fd5ee3391ef6e8e8...} \\
+\texttt{docs/NOT\_CLAY.md} & 379 B & \texttt{5c18af483bca3fd5...} \\
+\texttt{docs/STATEMENT.md} & 1085 B & \texttt{6234e6b12f404b8f...} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\vfill
+\noindent\rule{\textwidth}{0.4pt}\\
+\footnotesize
+\textbf{Attribution \& Licensing Notice:} Copyright \textcopyright\ 2026 Benjamin Stanley Frohman (ORCID: \texttt{0009-0006-7068-3718}).
+Licensed under the Apache License, Version 2.0.
+\end{document}

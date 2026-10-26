@@ -1,0 +1,28 @@
+{
+  "title": "Atiyah-Hirzebruch Integral Hodge Counterexamples and Torsion Obstructions: Formal Separation from the Rational Clay Hodge Conjecture",
+  "upload_type": "publication",
+  "description": "Standalone formal documentation and mathematical ledger of the 1962 Atiyah-Hirzebruch torsion counterexamples to the Integral Hodge Conjecture on smooth projective varieties over C, constructed via Steenrod operations in topological K-theory on Godeaux-Serre quotients of products of elliptic curves by elementary abelian p-groups (p >= 3) in complex dimension >= 7. Explicitly documents why torsion classes vanish under tensoring with Q (H^{2p}(X, Z)_tors (x) Q = 0) and therefore do not constitute counterexamples to the Clay Mathematics Institute Rational Hodge Conjecture. This repository records known 1962 integral torsion obstructions (Atiyah-Hirzebruch) and their vanishing after rationalization. It does not prove or disprove the rational Clay Hodge Conjecture. Copyright (c) 2026 Benjamin Stanley Frohman. Licensed under the Apache License, Version 2.0.",
+  "creators": [
+    {
+      "name": "Frohman, Benjamin Stanley",
+      "orcid": "0009-0006-7068-3718"
+    }
+  ],
+  "license": "Apache-2.0",
+  "access_right": "open",
+  "keywords": [
+    "Atiyah-Hirzebruch counterexample",
+    "Integral Hodge Conjecture",
+    "Steenrod operations",
+    "Torsion cohomology",
+    "Rational Hodge Conjecture",
+    "Algebraic cycles"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/BenFrohman/AtiyahHirzebruch",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

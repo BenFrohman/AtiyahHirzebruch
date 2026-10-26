@@ -1,0 +1,16 @@
+{
+  "schema": "titan-audit-v1.0",
+  "repository": "BenFrohman/AtiyahHirzebruch",
+  "doi": "10.5281/zenodo.23652971",
+  "author": "Benjamin Stanley Frohman",
+  "orcid": "0009-0006-7068-3718",
+  "license": "Apache-2.0",
+  "timestamp_cdt": "2026-10-25T19:10:00-05:00",
+  "lean_module_count": 0,
+  "sorry_count": 0,
+  "modules": [],
+  "verdict": "PASS_ZERO_SORRY_HONEST_BOUNDARY",
+  "payload_sha256": "c08117cfd0a02b0d01c2cc559e5fbbbdccdc5c4894a035173174b0fb04182901",
+  "ed25519_key_fingerprint": "b428fb72676f1c52",
+  "ed25519_signature": "d3c94b6336b31718a437676654958a6da51dcc8622b9fa6911e1c5e04c20f487056f9641c0a85d03d22394b31d86b8f828dbc9e53f709ffc8c138e92a8c6520f"
+}
