@@ -73,3 +73,7 @@ Kollár produced *non-torsion* integral Hodge classes that are still not algebra
 
 - [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23652970.svg)](https://doi.org/10.5281/zenodo.23652970) Atiyah-Hirzebruch Integral Hodge Counterexamples and Torsion Obstructions: Formal Separation from the Rational Clay Hodge Conjecture — all versions: [10.5281/zenodo.23652970](https://doi.org/10.5281/zenodo.23652970); latest version: [10.5281/zenodo.23652971](https://doi.org/10.5281/zenodo.23652971)
 - [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23867559.svg)](https://doi.org/10.5281/zenodo.23867559) Atiyah-Hirzebruch Integral Hodge Counterexamples and Torsion Obstructions: Formal Separation from the Rational Clay Hodge Conjecture — all versions: [10.5281/zenodo.23867559](https://doi.org/10.5281/zenodo.23867559); latest version: [10.5281/zenodo.23867560](https://doi.org/10.5281/zenodo.23867560)
+
+## Citation
+
+Cite this work with [`CITATION.cff`](CITATION.cff) (GitHub's "Cite this repository" button). Zenodo DOI: [10.5281/zenodo.23652971](https://doi.org/10.5281/zenodo.23652971).
